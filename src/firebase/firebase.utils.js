@@ -5,7 +5,7 @@ import 'firebase/auth';
 const config =
 
 {
-    //api key etc
+    // api key
 }
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
