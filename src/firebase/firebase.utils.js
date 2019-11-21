@@ -2,10 +2,12 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
+// https://stackoverflow.com/questions/37482366/is-it-safe-to-expose-firebase-apikey-to-the-public/37484053#37484053
+
 const config =
 
 {
-    // api key
+
 }
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
