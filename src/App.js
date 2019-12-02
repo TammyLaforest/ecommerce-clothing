@@ -70,3 +70,5 @@ const mapDispatchToProps = dispatch => ({
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
+
+// Could not find "store" in the context of "Connect(App)".Either wrap the root component in a < Provider >, or pass a custom React context provider to < Provider > and the corresponding React context consumer to Connect(App) in connect options.
