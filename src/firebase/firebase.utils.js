@@ -2,11 +2,17 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
-// https://stackoverflow.com/questions/37482366/is-it-safe-to-expose-firebase-apikey-to-the-public/37484053#37484053
-
 const config =
 
 {
+    apiKey: "AIzaSyBbl3wHuoTb82fYwGl6kncHHEp8aczkkRY",
+    authDomain: "ecommerce-clothing-db.firebaseapp.com",
+    databaseURL: "https://ecommerce-clothing-db.firebaseio.com",
+    projectId: "ecommerce-clothing-db",
+    storageBucket: "ecommerce-clothing-db.appspot.com",
+    messagingSenderId: "629447815328",
+    appId: "1:629447815328:web:d233d1de671ed24df899c5",
+    measurementId: "G-NEZ6MWCLG3"
 
 }
 
